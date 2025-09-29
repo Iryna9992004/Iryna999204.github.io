@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Content</title>
+  </head>
+  <body>
+    <section
+      style="
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      "
+    >
+      <img
+        src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
+        alt="bird"
+        style="height: 300px; width: 400px"
+      />
+      <video width="400" height="300" controls>
+        <source
+          src="https://v.ftcdn.net/01/09/24/63/700_F_109246308_90Wz2FeTc58wJsHmqg8TRAPZpNgxkzjj_ST.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+
+      <audio controls>
+        <source src="./audio/requiem-mozart.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+  </body>
+</html>
