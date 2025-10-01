@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Зміна тексту</title>
+  </head>
+  <body>
+    <p id="greeting">Привіт!</p>
+    <button onclick="changeText()">Натисни</button>
+    <script>
+      function changeText() {
+        document.getElementById("greeting").textContent = "Привіт, світ!";
+      }
+    </script>
+  </body>
+</html>
